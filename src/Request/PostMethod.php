@@ -34,8 +34,11 @@ class PostMethod extends Request
         $message = $this->invalidResult;
         if ($this->validateRequest()) {
             $cards = new Cards();
-            $message = $cards->order($this->input);
-            $result = $this->successMessage;
+            $tempMessage = $cards->order($this->input);
+            if (!empty($tempMessage)) {
+                $message = $tempMessage;
+                $result = $this->successMessage;
+            };
         }
         $this->setMessage($result, $message);
 

@@ -35,8 +35,9 @@ class Cards
     public function order(array $cards)
     {
         $order = [];
-        $keyFirstLink = $this->getFirstLink($cards);
-        if ($this->validateFields($cards) && !is_null($keyFirstLink)) {
+        if ($this->validateFields($cards)) {
+            $keyFirstLink = $this->getFirstLink($cards);
+            if (is_null($keyFirstLink)) return $order;
             array_push($this->orderKeys, $keyFirstLink);
             while (count($this->orderKeys) < count($cards)) {
                 $last = end($this->orderKeys);
