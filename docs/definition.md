@@ -1,7 +1,7 @@
 
-##TRIP SORTER
+## TRIP SORTER
 
-###TASK
+### TASK
 
 You are given a stack of boarding cards for various transportations that will take you from a point A to point B via several stops on the way. All of
 the boarding cards are out of order and you don't know where your journey starts, nor where it ends. Each boarding card contains information
@@ -25,7 +25,7 @@ The API is to be an internal PHP API so it will only communicate with other part
 
 Use PHP-doc to document the input and output your API accepts / returns.
 
-###REQUIREMENTS
+### REQUIREMENTS
 
 No 3rd party frameworks are allowed apart from for testing. Start all code from scratch.
  * Provide a README file containing clear, simple instructions upon how to execute the code and tests.
@@ -38,7 +38,7 @@ between all the legs of the trip. i.e. it's one continuous trip with no interrup
 times on the boarding passes. It is just assumed that your next connection is waiting for you when you arrive at a destination.
  * The algorithm should have the lowest possible order of complexity (Big O notation) you could think of.
 
-###WHAT WE LOOK AT
+### WHAT WE LOOK AT
 This task is designed to give us an idea of:
  * How you structure your code.
  * Your understanding of OOP.

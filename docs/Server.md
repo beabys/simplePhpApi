@@ -50,7 +50,7 @@ Simple Api for TRIP SORTER
 
 | Response Codes | Definition | Description |
 | --- | --- | --- |
-| 200 | OK | The request have ben processed and show response |
+| 200 | OK | The request have been processed and show response |
 | 400 | Bad Request | Invalid Request |
 | 500 | Internal Server Error | Internal Server Error |
 
