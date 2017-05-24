@@ -41,7 +41,7 @@ abstract class Request implements RequestInterface
      */
     protected $invalidResult = [
         "Error" => 'Invalid Request',
-        "code" => 404
+        "code" => 400
     ];
 
     /**

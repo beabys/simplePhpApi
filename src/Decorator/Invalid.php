@@ -12,5 +12,5 @@ class Invalid extends Decorator
     /**
      * @var int
      */
-    protected $code = 404;
+    protected $code = 400;
 }
